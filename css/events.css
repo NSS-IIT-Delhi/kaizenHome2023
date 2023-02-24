@@ -1,0 +1,78 @@
+:root{
+}
+
+.timeline-heading h1  {
+    color: black;
+    /* background-color: black; */
+    text-align: center;
+    margin-top: 950px;
+    padding: 50px;
+    size: 60px;
+}
+
+.timeline-container{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding: 100px;
+}
+
+.timeline-line{
+    width: 2600px;
+    height: 5px;
+    background-color: black;
+    transform: translate(0px, 80px);
+}
+
+.timeline-dots{
+    display: flex;
+}
+
+.timeline-dot{
+    min-width: 30px;
+    min-height: 30px;
+    background-color: black;
+    border-radius: 100%;
+    /* margin: 0 150px 0 150px; */
+    z-index: 2;
+    position: fixed;
+}
+
+
+.timeline-event-box{
+    display: flex;
+        
+}
+.timeline-event{
+    /* width: 120px; */
+    min-width: 300px;
+    height : 100px;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    font-size: 20px;
+}
+.timeline-event div{
+    margin: 5px;
+}
+
+.timeline-event-top{
+    transform: translate(0px, -75px);
+}
+.timeline-event-bottom{
+    transform: translate(0px, +75px);
+}
+
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.scrollbar-hidden::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+.scrollbar-hidden {
+    -ms-overflow-style: none;
+    scrollbar-width: none; /* Firefox */
+}
