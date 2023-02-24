@@ -1,0 +1,48 @@
+#carouselExampleCaptions {
+  /* max-height: 90vh; */
+  background-color: white;
+}
+.event-item {
+  padding: 3% 15% 1%;
+  background-color: white;
+}
+.car-img {
+  max-height: 600px;
+  filter: saturate(50%);
+}
+.car-img:hover {
+  filter: saturate(100%);
+}
+.home-event-cap {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.home-event-title {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.event-text-light {
+  color: #fff;
+}
+
+.gallery-wrapper {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 5% 0;
+  margin: 5% 0 0;
+}
+.gallery-div {
+  width: 70%;
+}
+@media (max-width: 768px) {
+  .event-item {
+    padding: 0;
+  }
+  .gallery-wrapper {
+    padding: 0;
+  }
+  .gallery-div {
+    width: 100%;
+  }
+}
