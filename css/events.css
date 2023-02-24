@@ -56,7 +56,15 @@
     margin: 30px;
     font-size: 20px;
     text-align: center;
+    transition: box-shadow .3s;
+    float: left;
+    border-radius: 20px;
 }
+.timeline-event:hover{
+    box-shadow: 0 0 11px rgb(171, 167, 167);
+}
+
+
 .timeline-event div{
     margin: 5px;
     font-weight: 500;
