@@ -17,6 +17,7 @@
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 100px;
+    padding-left: 0;
 }
 
 .timeline-line{
