@@ -3,12 +3,13 @@
 }
 
 .timeline-heading h1  {
-    color: #14addc;
+    color: cyan;
     /* background-color: black; */
     text-align: center;
     margin-top: 950px;
     padding: 50px;
-    font-size: 70px;
+    font-size: 60px;
+    font-family: "Playfair Display";
     transform: translateY(30px);
 }
 
@@ -16,13 +17,14 @@
     overflow-x: scroll;
     overflow-y: hidden;
     padding: 100px;
+    padding-left: 0;
 }
 
 .timeline-line{
-    width: 2600px;
+    width: 2100px;
     height: 2px;
     background-color: white;
-    transform: translate(0px, 80px);
+    transform: translate(0px, 50px);
 }
 
 .timeline-dot{
@@ -53,8 +55,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 30px;
-    font-size: 20px;
+    /* margin: 30px; */
     text-align: center;
     transition: box-shadow .3s;
     float: left;

@@ -1,4 +1,5 @@
 .header {
+  /* width: 100%; */
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -13,16 +14,20 @@
 }
 
 .logo {
-  width: 60px;
-  height: 60px;
+  min-width: 60px;
+  min-height: 60px;
+  margin-right: auto;
+  flex:0.05;
 }
 
 .header ul {
+  margin-left: auto;
   /* border:1px solid red; */
+  flex: 1;
   list-style: none;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
@@ -38,4 +43,16 @@
 .header ul li:hover {
   border-bottom: 1.5px solid cyan;
   cursor: pointer;
+}
+
+@media screen and (max-width:425px){
+  .logo{
+    display: none;
+  }
+  .header ul{
+    justify-content: space-between;
+  }
+  .header ul li{
+    margin: 0 0.5rem;
+  }
 }
