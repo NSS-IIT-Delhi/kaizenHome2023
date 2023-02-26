@@ -21,8 +21,8 @@
 }
 
 .header ul {
-  margin-left: auto;
   /* border:1px solid red; */
+  margin-left: auto;
   flex: 1;
   list-style: none;
   display: flex;
@@ -32,12 +32,12 @@
 }
 
 .header ul li {
-  font-size: 0.8rem;
+  font-size: 1.1rem;
   border: 1.5px solid transparent;
   margin-left: 1rem;
   padding: 0.3rem;
-  /* border-radius: 10px; */
   transition: 0.2s ease-in-out;
+  /* border-radius: 10px; */
 }
 
 .header ul li:hover {
