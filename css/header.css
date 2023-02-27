@@ -56,3 +56,33 @@
     margin: 0 0.5rem;
   }
 }
+
+
+
+
+
+.navbar{
+  width: 100vw;
+  position: fixed;
+  top:0;
+  z-index:999;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter:blur(10px);
+  box-shadow: 0 0 3px cyan;
+}
+
+.hamburger-menu{
+  width: 35px;
+  height: 35px;
+}
+
+.nav-item{
+  padding: 0rem 1rem;
+  border: 2px solid transparent;
+  border-radius: 50px;
+  margin: 0 0.4rem;
+  transition: 0.2s ease-in-out;
+}
+.nav-item:hover{
+  border: 2px solid cyan;
+}
