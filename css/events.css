@@ -21,7 +21,7 @@
 }
 
 .timeline-line{
-    width: 2100px;
+    width: 1800px;
     height: 2px;
     background-color: white;
     transform: translate(0px, 50px);
